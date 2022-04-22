@@ -45,7 +45,7 @@ p {
 }
 
 main {
-    padding-left: 310px;
+    padding-left: 230px;
     padding-top: 60px;
     font-family: 'Roboto', sans-serif;
 }
@@ -65,13 +65,12 @@ ul {
 }
 
 .rubl {
-    border: none;
-    background-color: #833AE0;
     color: #C6C6C6;
     width: 80px;
     height: 40px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    background-color: white;
 }
 
 .usd {
@@ -97,22 +96,12 @@ ul {
     border-bottom-right-radius: 5px;
 }
 
-.rubl:hover {
+.right-btns button:hover{
     background-color: #833AE0;
 }
-
-.usd:hover {
+.left-btns button:hover{
     background-color: #833AE0;
 }
-
-.euro:hover {
-    background-color: #833AE0;
-}
-
-.gbp:hover {
-    background-color: #833AE0;
-}
-
 .input1{
     width: 320px;
     border: 1px solid #E5E5E5; 
@@ -131,8 +120,25 @@ ul {
 
 input{
     border: none;
+    box-shadow: none;
     font-size: 60px;
     width: 286px;
     padding-left: 15px;
     padding-top: 10px;
+
+}
+input:focus{
+    outline:none;
+}
+
+input[type='number']{
+    -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.active{
+    background-color: #833AE0;
 }
