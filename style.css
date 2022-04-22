@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F5F5F6;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+    font-size: small;
+    text-decoration: none;
+    padding-right: 50px;
+    color: rgb(168, 166, 166);
+
+}
+
+a:hover {
+    color: black;
+}
+
+.login {
+    border-radius: 5px;
+    width: 70px;
+    height: 33px;
+    background-color: #833AE0;
+    color: white
+}
+
+h1 {
+    font-size: 55px;
+}
+
+p {
+    color: #9f9f9f;
+}
+
+main {
+    padding-left: 310px;
+    padding-top: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.convertors {
+    display: flex;
+    padding-right: 330px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.rubl {
+    background-color: white;
+    color: #C6C6C6;
+    width: 80px;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.usd {
+    background-color: white;
+    color: #C6C6C6;
+    width: 80px;
+    height: 40px;
+}
+
+.euro {
+    background-color: white;
+    color: #C6C6C6;
+    width: 80px;
+    height: 40px;
+}
+
+.gbp {
+    background-color: white;
+    color: #C6C6C6;
+    width: 80px;
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.rubl:hover {
+    background-color: #833AE0;
+}
+
+.usd:hover {
+    background-color: #833AE0;
+}
+
+.euro:hover {
+    background-color: #833AE0;
+}
+
+.gbp:hover {
+    background-color: #833AE0;
+}
